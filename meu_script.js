@@ -1,0 +1,5 @@
+alert('Olá, seja bem vindo ao curso!')
+/* Selecionar um elemento no dom 
+    atualizar o valor desse elemento com uma string*/
+document.getElementById('nome').value = 'Oi'
+
