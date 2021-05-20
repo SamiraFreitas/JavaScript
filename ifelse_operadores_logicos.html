@@ -17,13 +17,17 @@
         var media = 7 
         var faltas_max = 15 
 
-        
+    /*
         if( nota >= media && faltas <= faltas_max ){
             document.write('Entrou dentro do bloco if, aprovado')
 
         } else {
             document.write('Entrou dentro do bloco else, reprovado ')
-        }
+        }*/
+
+        //Operador ternario 
+        var resultado = (nota >= media && faltas <= faltas_max ) ? 'Aprovado' : 'Reprovado '
+        document.write(resultado)
     </script> 
    
 </head>
