@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>JavaScript</title>
+
+    <script>
+    // 3 escopos : global= script todo , função= conteudo dentro das chaves da funcao , bloco= instruções contidas dentro de comandos 
+
+    var serie = 'Friends '
+
+    if (true){
+        var serie2 = 'OI'
+        document.write(serie)
+    }
+
+    document.write (serie2)
+
+    function x(){
+        var serie3= "Hi"
+        document.write(serie)
+        document.write(serie2)
+    }
+    x() 
+    document.write (serie3)
+
+    //escopo de função e bloco visualiza variaveis globais 
+    //variaveis de bloco sofrem elevação e eu tenho acesso as variaveis declaradas em global 
+    //escopo de função nao sofre elevação para o global 
+
+
+    </script> 
+   
+</head>
+<body>
+
+ 
+</body>
+</html>
