@@ -7,8 +7,15 @@
     <title>JavaScript</title>
 
     <script>
-        
-        
+        function exibirArtigo (id, callbackSucesso, callbackError) {
+            //logica: recuperar o id via requisicao http
+            if(true){
+                callbackSucesso('Funcoes de callback em Js', 'Funcoes de callback sao muito utilizidas')
+            } else {
+                callbackError('Erro ao recuperar os dados ')
+            }
+        }
+
 
     </script> 
    
