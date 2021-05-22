@@ -8,6 +8,8 @@
 
     <script>
 
+        /*
+
         var data = new Date ()
 
         data.getDate()
@@ -35,6 +37,45 @@
         data.setFullYear(data.getFullYear() + 1 )
         document.write('<hr />')
         document.write(data.toString())
+*/
+
+        //parametros do tipo data var d = new Date(year, month, day, hours, minutes, seconds, milliseconds);
+        //22/05/2021
+        var data1= new Date(2021, 04, 22)
+        //23/05/2021
+        var data2 = new Date(2021, 04, 23)
+        document.write(data1.toString())
+        document.write('<hr />')
+        document.write(data2.toString())
+
+        // converter as datas para algo que possamos calcular 
+        // 1 de janeiro de 1970
+        document.write('<hr />')
+        document.write(data1.getTime())
+        document.write('<hr />')
+        document.write(data2.getTime())
+
+        document.write('<hr />')
+        //encontrar a quantidade de milisegundos entre data1 e data2 
+
+        var milisegundos_entre_datas = Math.abs(data1.getTime() - data2.getTime())
+        document.write(milisegundos_entre_datas)
+
+        //converter o milisegundos para dias 
+        //sabemos que 1 dia tem 24 horas, cada hora tem 60 minutos
+        //cada minuto tem 60 segundos
+        //e cada segundo tem 1000 milisegundos 
+        //quantos milisegundos tem em 1 dia ? 
+        document.write('<hr />')
+        var milisegundos_por_dia = (1*24*60*60*1000)
+
+        document.write('1 dia tem: ' +  milisegundos_por_dia + ' milissegundos')
+        document.write('<hr />')
+        document.write('A diferenca de dia entre as datas acima e : ')
+        document.write(milisegundos_entre_datas / milisegundos_por_dia ) 
+        document.write(' dia')
+       
+
 
     </script> 
     </script> 
