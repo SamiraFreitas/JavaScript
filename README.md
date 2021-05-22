@@ -1,5 +1,5 @@
 ## 📜 Índice
-- [� Índice](#-índice)
+- [📜 Índice](#-índice)
 - [📝 Sobre](#-sobre)
 - [👾 Tecnologias Utilizadas](#-tecnologias-utilizadas)
 - [💻 Como baixar o projeto](#-como-baixar-o-projeto)
@@ -14,7 +14,6 @@ Esse repositorio é referente a seção 8 do curso [Desenvolvimento Web Completo
 
 ---
 ## 👾 Tecnologias Utilizadas 
-O projeto foi desenvolvido utilizando as seguintes tecnologias 
 - HTML  
 - Js
 
