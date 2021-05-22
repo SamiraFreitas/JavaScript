@@ -15,8 +15,28 @@
 
         //outros metodos podem ser encontrados em : https://www.w3schools.com/jsref/jsref_obj_date.asp
 
+        document.write('<hr />')
+        //adicionar / remover dias , para alterar meses ou anos basta mudar de DATE PARA MONTH OU YEARS
+        document.write(data.toString())
+        data.setDate(data.getDate()  + 1 )
+        document.write('<hr />')
+        document.write(data.toString())
 
-     
+        document.write('<hr />')
+        //adicionar / remover MESES
+        document.write(data.toString())
+        data.setMonth(data.getMonth() + 1 )
+        document.write('<hr />')
+        document.write(data.toString())
+
+        document.write('<hr />')
+        //adicionar / remover Years
+        document.write(data.toString())
+        data.setFullYear(data.getFullYear() + 1 )
+        document.write('<hr />')
+        document.write(data.toString())
+
+    </script> 
     </script> 
    
 </head>
